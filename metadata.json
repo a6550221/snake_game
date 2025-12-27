@@ -1,0 +1,7 @@
+{
+  "name": "Snake Synthwave",
+  "description": "A high-speed neon-themed snake game with retro synth background music and AI-powered victory card generation using Gemini 3 Pro.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Snake Synthwave</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #020617;
+            overflow: hidden;
+            font-family: 'Orbitron', sans-serif;
+        }
+        /* Custom Digital Clock Font Effect */
+        .digital-font {
+            font-family: 'Share Tech Mono', monospace;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+        .neon-border {
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.6), inset 0 0 15px rgba(255, 0, 255, 0.4);
+        }
+        .neon-text-pink {
+            color: #ff00ff;
+            text-shadow: 0 0 5px #ff00ff, 0 0 15px #ff00ff;
+        }
+        .neon-text-cyan {
+            color: #00ffff;
+            text-shadow: 0 0 5px #00ffff, 0 0 15px #00ffff;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
